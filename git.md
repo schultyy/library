@@ -42,3 +42,8 @@
     git add <file>
     git stash
 
+### Remove accidentially added files from last commit
+
+    git reset --soft HEAD~1
+  
+Then remove staged files and commit again
