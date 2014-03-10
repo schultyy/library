@@ -36,5 +36,5 @@ FOUNDATION_EXPORT NSString *const foo;
 #import <Foundation/Foundation.h>
 #import “Constants.h”
 
-NSString *const Foo = @“Bar”;
+NSString *const Foo = @"Bar";
 ```
