@@ -64,3 +64,5 @@ it has an height of `1px`.
 ```
 
 The surrounding `div` has a height of 0. To fix this, set a height or `overflow: hidden`.
+
+See also: [StackOverflow - Setting background-color on div has no effect](http://stackoverflow.com/a/944681/2381404)
