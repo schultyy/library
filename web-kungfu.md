@@ -44,9 +44,23 @@ When working with absolute positioning (`position: absolute`), then margin and p
 .triangle {
   width: 0px;
   height: 0px;
-  
+
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-right: 10px solid white;
 }
 ```
+
+## `background-color` on `div` has no effect
+
+Symptom: Setting the `background-color` on a `div` element has no effect. This occurs, because
+it has an height of `1px`.
+
+```HTML
+<div style="background-color: white;">
+  <div style="float: left"></div>
+  <div style="float: right"></div>
+</div>
+```
+
+The surrounding `div` has a height of 0. To fix this, set a height or `overflow: hidden`.
