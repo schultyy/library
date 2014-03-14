@@ -14,7 +14,7 @@ In the NIB File, you will not instantiate a `PreferencesController` directly. In
 The first responder is the current view which gets keyboard events.
 
 ## Call to IBAction leads to EXC_BAD_ACCESS
-Control flow never reaches the actual IBAction, already stopped with `EXC_BAD_ACCESS`. 
+Control flow never reaches the actual IBAction, already stopped with `EXC_BAD_ACCESS`.
 This is because an object is called which was already released.
 
 ## Constants
@@ -38,3 +38,10 @@ FOUNDATION_EXPORT NSString *const foo;
 
 NSString *const Foo = @"Bar";
 ```
+
+## Create a statusbar application
+
+Open <appname>.plist and add a new row:
+
+Key: `Application is agent (UIElement)`
+Value: `YES`
