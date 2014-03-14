@@ -16,7 +16,7 @@
 
 `Ctrl+A ,`
 
-## New window
+## New pane
 
 `Ctrl+A %`
 
@@ -40,3 +40,19 @@
 ## Find window
 
 `Ctrl+A f`
+
+## Move pane to new window
+
+`Ctrl+A !`
+
+## Kill pane
+
+`Ctrl+A :kill-window`
+
+## Copy paste
+
+`Ctrl+A [`
+
+### Select text
+
+Space
