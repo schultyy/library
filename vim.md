@@ -2,6 +2,10 @@
 
 > vim gedoens
 
+## Pretty JSON
+
+    :%!python -m json.tool
+
 ## Custom settings per file type
 
 Described here: http://stackoverflow.com/questions/158968/changing-vim-indentation-behavior-by-file-type
